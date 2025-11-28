@@ -84,13 +84,6 @@ The system is defined by its Fallbacks and Decision Rules in the `/chat` endpoin
 
 ---
 
-# 🎯 Summary of Intelligent Behavior
 
-- 📄 **If PDF contains the info → Use PDF ONLY**  
-- 🌐 **If PDF doesn’t contain it → Use Web Search**  
-- 🧠 **If neither gives context → LLM uses safe general knowledge or refuses**  
-- 🚫 **LLM is not allowed to hallucinate or fabricate unverified answers**
-
----
 
 
