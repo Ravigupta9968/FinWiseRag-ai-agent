@@ -1,0 +1,14 @@
+# Backend Ignored Files
+backend/venv/
+backend/__pycache__/
+backend/faiss_index/
+backend/uploads/
+backend/.env
+
+# Frontend Ignored Files
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# System Files
+.DS_Store
