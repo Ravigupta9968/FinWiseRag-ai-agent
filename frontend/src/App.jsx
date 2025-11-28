@@ -27,7 +27,7 @@ function App() {
     });
 
     try {
-      await axios.post("http://localhost:8000/upload", formData, {
+      await axios.post("https://finwiserag-backend.onrender.com/upload", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setUploadStatus("✅ System Ready: Knowledge Base Updated");
@@ -53,7 +53,7 @@ function App() {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://localhost:8000/chat", {
+      const res = await axios.post("https://finwiserag-backend.onrender.com/chat", {
         question: query
       });
 
