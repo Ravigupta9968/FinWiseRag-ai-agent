@@ -71,7 +71,7 @@ The system operates via a decoupled architecture:
 | **Source Control** | Git + GitHub (Monorepo structure) |
 
 ---
-# 🧠 2. Core Workflow: Hybrid Agent Logic
+# 🧠 Core Workflow: Hybrid Agent Logic
 
 The system is defined by its Fallbacks and Decision Rules in the `/chat` endpoint:
 
@@ -83,6 +83,7 @@ The system is defined by its Fallbacks and Decision Rules in the `/chat` endpoin
 | **Layer 3: Generation & Decision** | Context (Document / Web / Empty) + Smart Prompt → **Groq(Llama-3.1)** | 🤖 If **context is empty**, LLM: <br>• Gives *general definitions* (e.g., "RAG stands for…") <br>• **Rejects specific facts** to avoid hallucination |
 
 ---
+
 
 
 
