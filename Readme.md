@@ -12,7 +12,7 @@ This system works as an **Intelligent Retrieval Agent** that automatically decid
 - 📄 **Internal document knowledge**, or  
 - 🌐 **External web search (DuckDuckGo)**  
 based on context availability.
-
+**Demo link:** [https://www.linkedin.com/posts/ravi07gupta_buildinginpublic-rag-python-activity-7400395703690252288-41BU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOhl60BaS10lvebXhX-PE-fE1AagkMBrUI] 
 ---
 
 ## ✨ Key Features
@@ -83,6 +83,7 @@ The system is defined by its Fallbacks and Decision Rules in the `/chat` endpoin
 | **Layer 3: Generation & Decision** | Context (Document / Web / Empty) + Smart Prompt → **Groq(Llama-3.1)** | 🤖 If **context is empty**, LLM: <br>• Gives *general definitions* (e.g., "RAG stands for…") <br>• **Rejects specific facts** to avoid hallucination |
 
 ---
+
 
 
 
